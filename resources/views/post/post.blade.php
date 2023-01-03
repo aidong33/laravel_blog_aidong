@@ -23,7 +23,7 @@
 
                     @if( $post->post_thumbnail )
                     <div class="blog-thumbnail">
-                        <img src="/uploads/{{ $post->thumbnail_img}}" alt="{{ $post->post_title }}" />
+                        <img src="/uploads/{{ $post->thumbnail_img}}" alt="{{ $post->post_title }}"  width="410px" height="350px" />
                     </div>
                     @endif
 

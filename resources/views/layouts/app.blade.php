@@ -29,16 +29,20 @@
                         <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="{{route('home')}}">Home</a></li>
                         <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="{{route('dashboard')}}"> Dashboard</a></li>
                         @if((Auth::check() && (Auth::user()->is_admin==1)))
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="{{route('posts.index')}}"> Manage Post</a></li>
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="{{route('posts.create')}}"> Create New Post</a></li>
-                        <form id="logout-form" action="{{ route('signout') }}" method="POST"> 
-                            @csrf
-                            <button class="btn">Log out</button>
-                        </form>
-                       @elseif(Auth::check())
+                            <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="{{route('posts.index')}}"> Manage Post</a></li>
+                            <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="{{route('posts.create')}}"> Create New Post</a></li>
+                            <form id="logout-form" action="{{ route('signout') }}" method="POST"> 
+                                @csrf
+                                <button class="btn">Log out</button>
+                            </form>
+                        @elseif(Auth::check())
+                            <form id="logout-form" action="{{ route('signout') }}" method="POST"> 
+                                @csrf
+                                <button class="btn">Log out</button>
+                            </form>
                         @else
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="{{route('login')}}">Login</a></li>
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="{{route('register-user')}}">Register</a></li>
+                            <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="{{route('login')}}">Login</a></li>
+                            <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="{{route('register-user')}}">Register</a></li>
                         @endif
                     </ul>
                 </div>

@@ -9,7 +9,7 @@ class HoempageController extends Controller
 {
     public function getPosts(){
 
-        $posts = Post::all();
+        $posts = Post::orderBy('created_at', 'DESC')->get();
 
         return view('index', ['posts' => $posts]);
     }

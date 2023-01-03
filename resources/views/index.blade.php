@@ -28,9 +28,11 @@
 
                     @foreach($posts as $post)
                     <div class="post-preview">
+                    @if($post->thumbnail_img !== null)
                         <a href="{{route('singlepost', $post->id)}}"> 
-                            <img src="https://media.poetryfoundation.org/uploads/media/cache/default/0001/14/7d3d6b4b8241411fd38735db3ce63c78130f7337.jpeg/33501495408c2982927a9197e4d7c5df" width=250/> 
+                            <img src="/uploads/{{ $post->thumbnail_img}}" alt="{{ $post->title }}"  width="430px" height="350px"/> 
                          </a>
+                    @endif
                             <h2 class="post-title">{{$post->title}}</h2> 
                             <h4 class="post-subtitle">{{$post->author}}</h4>
                         <p class="post-meta">

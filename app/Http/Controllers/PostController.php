@@ -77,8 +77,21 @@ class PostController extends Controller
             'post_text' => 'required'
         ]);
 
+        if( $request->hasFile('post_thumbnail') ) {
 
-        $post->fill($request->post())->save();
+            $filename = time() . '.' . $request->post_thumbnail->extension();
+
+            $request->post_thumbnail->move(public_path('uploads'), $filename);
+
+            $post->thumbnail_img= $filename;
+
+        }
+
+        $post->title = $request->title;
+        $post->author = $request->author;
+        $post->post_text = $request->post_text;
+
+        $post->save();
 
         Session::flash('success', 'Post updated.');
 

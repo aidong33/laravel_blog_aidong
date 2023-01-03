@@ -24,11 +24,11 @@
                     @foreach($posts as $post)
                     <div class="post-preview">
                         <a href="{{route('posts.show', $post->id)}}"> 
-                          
-                        
+                          @if($post->thumbnail_img !== null)
                             <div class="blog-thumbnail">
-                            <img src="/uploads/{{ $post->thumbnail_img}}" alt="{{ $post->title }}"  width="410px" height="350px"/>
+                            <img src="/uploads/{{ $post->thumbnail_img}}" alt="{{ $post->title }}"  width="430px" height="350px"/>
 					        </div>
+                         @endif
                             <h2 class="post-title">{{$post->title}}</h2> 
                             <h4 class="post-subtitle">{{$post->author}}</h4>
                         <p class="post-meta">
