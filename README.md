@@ -100,11 +100,11 @@ This is a personal blog website for posing and display blogs.
     - CodeIgniter doesn’t have any inbuilt unit testing tools
  
   * Laravel:
-    *Relational Object-Oriented
-    *Laravel comes with authentication class features
-    *Laravel has an inbuilt Unit testing tool
-    *Laravel allows programmers to define custom HTTPs routes. The developers can also create a specific URL for each HTTPS route
-    *Laravel offers many additional features which are difficult to learn for beginners
+    - Relational Object-Oriented
+    - Laravel comes with authentication class features
+    - Laravel has an inbuilt Unit testing tool
+    - Laravel allows programmers to define custom HTTPs routes. The developers can also create a specific URL for each HTTPS route
+    - Laravel offers many additional features which are difficult to learn for beginners
    
    * Choice: Based on our project feature requirement that user login, register, user authentication, and custome routing, **laravel** is more align with our demand.
  
