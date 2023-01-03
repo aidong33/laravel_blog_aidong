@@ -18,20 +18,12 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
   <a href="https://github.com/aidong33/laravel_blog_aidong">
-    <img src="assest/img/logo.jpeg" alt="Logo" width="80" height="80">
+    <img src="blogs/public/assets/img/logo.jpeg" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Laravel Blog</h3>
@@ -87,8 +79,8 @@ This is a personal blog website for posing and display blogs.
 
 ### Built With
 
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
+* Laravel
+* Bootstrap
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -110,28 +102,27 @@ There are things you need to use the software and how to install them for Linux 
 
 * A Dependency Manager for PHP : composer
 
-* * npm
+* npm
   ```sh
   npm install npm@latest -g
   ```
 
 * Web Server for Mac: valet
+```
+composer global require laravel/valet
+``` 
 
 ### Create Project
 
 1. install laravel via composer:
  ```composer global require laravel/installer 
-   ```
+```
 
 2. create new project
 ```
    laravel new blogs
    ```
 3. start web server
-```
-     laravel new blogs
-   ```
-
 ```
     php artisan server
    ```
@@ -269,7 +260,6 @@ Project Link: [https://github.com/aidong33/laravel_blog_aidong](https://github.c
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
