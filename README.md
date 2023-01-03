@@ -88,26 +88,25 @@ This is a personal blog website for posing and display blogs.
 
 * Docker: Enterprise Container Platform for High-Velocity Innovation. The Docker Platform is the industry-leading container platform for continuous, high-velocity innovation, enabling organizations to seamlessly build and share any application — from legacy to what comes next — and securely run them anywhere.
 
-*Choice: Based on the feature requirement for this project that simple and fast construction, ** composer ** is more align with our developement purpose.
+* Choice: Based on the feature requirement for this project that simple and fast construction, **composer** is more align with our developement purpose.
 
 
 ### CodeIgniter vs Laravel
 
   * CodeIgniter:
-    ** Object Oriented
-    ** Codeigniter is easy to learn for beginners
-    ** Codeigniter doesn’t come with built-in authentication features
-    ** CodeIgniter doesn’t have any inbuilt unit testing tools
+    *Object Oriented
+    *Codeigniter is easy to learn for beginners
+    *Codeigniter doesn’t come with built-in authentication features
+    *CodeIgniter doesn’t have any inbuilt unit testing tools
  
   * Laravel:
-    ** Relational Object-Oriented
-    ** Laravel comes with authentication class features
-    ** Laravel has an inbuilt Unit testing tool
-    ** Laravel allows programmers to define custom HTTPs routes. The developers can also create a specific URL for each HTTPS route
-    ** Laravel offers many additional features which are difficult to learn for beginners
- 
- 
- * choice: Based on our project feature requirement that user login, register, user authentication, and custome routing, ** laravel ** is more align with our demand.
+    *Relational Object-Oriented
+    *Laravel comes with authentication class features
+    *Laravel has an inbuilt Unit testing tool
+    *Laravel allows programmers to define custom HTTPs routes. The developers can also create a specific URL for each HTTPS route
+    *Laravel offers many additional features which are difficult to learn for beginners
+   
+   * Choice: Based on our project feature requirement that user login, register, user authentication, and custome routing, **laravel** is more align with our demand.
  
 
 <!-- GETTING STARTED -->
