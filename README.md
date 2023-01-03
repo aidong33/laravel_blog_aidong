@@ -94,10 +94,10 @@ This is a personal blog website for posing and display blogs.
 ### CodeIgniter vs Laravel
 
   * CodeIgniter:
-    *Object Oriented
-    *Codeigniter is easy to learn for beginners
-    *Codeigniter doesn’t come with built-in authentication features
-    *CodeIgniter doesn’t have any inbuilt unit testing tools
+    - Object Oriented
+    - Codeigniter is easy to learn for beginners
+    - Codeigniter doesn’t come with built-in authentication features
+    - CodeIgniter doesn’t have any inbuilt unit testing tools
  
   * Laravel:
     *Relational Object-Oriented
