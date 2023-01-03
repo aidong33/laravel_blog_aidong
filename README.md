@@ -69,7 +69,6 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 This is a personal blog website for posing and display blogs.
 
@@ -115,8 +114,9 @@ composer global require laravel/valet
 ### Create Project
 
 1. install laravel via composer:
- ```composer global require laravel/installer 
 ```
+   composer global require laravel/installer 
+   ```
 
 2. create new project
 ```
