@@ -142,11 +142,9 @@ There are things you need to use the software and how to install them for Linux 
 ### Create Project
 
 1. install laravel via composer:
-<<<<<<< HEAD
  ```
  composer global require laravel/installer 
-=======
->>>>>>> cb977c2864efffff806bc8606219fdbe10b2b796
+
 ```
    composer global require laravel/installer 
    ```
