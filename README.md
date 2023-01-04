@@ -23,7 +23,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/aidong33/laravel_blog_aidong">
-    <img src="blogs/public/assets/img/logo.jpeg" alt="Logo" width="80" height="80">
+    <img src="" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Laravel Blog</h3>
@@ -115,7 +115,8 @@ composer global require laravel/valet
 ### Create Project
 
 1. install laravel via composer:
- ```composer global require laravel/installer 
+ ```
+ composer global require laravel/installer 
 ```
 
 2. create new project

@@ -5,7 +5,7 @@
         <!-- Page Header-->
 <body>
 
-        <header class="masthead" style="background-image: url('assets/img/2.jpeg')">
+        <header class="masthead" style="background-image: url('https://cdn.naturettl.com/wp-content/uploads/2019/08/30184905/Photographing-Sunrises-and-Sunsets-3-1200x900-cropped.jpg')">
             <div class="container position-relative px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-md-10 col-lg-8 col-xl-7">

@@ -32,6 +32,10 @@
                         <a href="{{route('singlepost', $post->id)}}"> 
                             <img src="/uploads/{{ $post->thumbnail_img}}" alt="{{ $post->title }}"  width="430px" height="350px"/> 
                          </a>
+                    @else
+                         <a href="{{route('singlepost', $post->id)}}"> 
+                            <img src="assets/img/test3.jpeg"  width="430px" height="350px"/> 
+                        </a>
                     @endif
                             <h2 class="post-title">{{$post->title}}</h2> 
                             <h4 class="post-subtitle">{{$post->author}}</h4>
