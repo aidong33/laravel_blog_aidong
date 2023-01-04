@@ -23,11 +23,8 @@
 <br />
 <div align="center">
   <a href="https://github.com/aidong33/laravel_blog_aidong">
-<<<<<<< HEAD
-    <img src="" alt="Logo" width="80" height="80">
-=======
     <img src="public/assets/img/logo.jpeg" alt="Logo" width="100" height="100">
->>>>>>> cb977c2864efffff806bc8606219fdbe10b2b796
+
   </a>
 
 <h3 align="center">Laravel Blog</h3>
