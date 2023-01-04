@@ -23,7 +23,11 @@
 <br />
 <div align="center">
   <a href="https://github.com/aidong33/laravel_blog_aidong">
+<<<<<<< HEAD
     <img src="" alt="Logo" width="80" height="80">
+=======
+    <img src="public/assets/img/logo.jpeg" alt="Logo" width="100" height="100">
+>>>>>>> cb977c2864efffff806bc8606219fdbe10b2b796
   </a>
 
 <h3 align="center">Laravel Blog</h3>
@@ -69,7 +73,6 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 This is a personal blog website for posing and display blogs.
 
@@ -81,10 +84,34 @@ This is a personal blog website for posing and display blogs.
 
 * Laravel
 * Bootstrap
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+### Composer vs. docker
 
+* Composer: Dependency Manager for PHP. Composer is a tool for dependency management in PHP. It allows you to declare the libraries your project depends on and it will manage (install/update) them for you
+
+* Docker: Enterprise Container Platform for High-Velocity Innovation. The Docker Platform is the industry-leading container platform for continuous, high-velocity innovation, enabling organizations to seamlessly build and share any application — from legacy to what comes next — and securely run them anywhere.
+
+* Choice: Based on the feature requirement for this project that simple and fast construction, **composer** is more align with our developement purpose.
+
+
+### CodeIgniter vs Laravel
+
+  * CodeIgniter:
+    - Object Oriented
+    - Codeigniter is easy to learn for beginners
+    - Codeigniter doesn’t come with built-in authentication features
+    - CodeIgniter doesn’t have any inbuilt unit testing tools
+ 
+  * Laravel:
+    - Relational Object-Oriented
+    - Laravel comes with authentication class features
+    - Laravel has an inbuilt Unit testing tool
+    - Laravel allows programmers to define custom HTTPs routes. The developers can also create a specific URL for each HTTPS route
+    - Laravel offers many additional features which are difficult to learn for beginners
+   
+   * Choice: Based on our project feature requirement that user login, register, user authentication, and custome routing, **laravel** is more align with our demand.
+ 
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -109,15 +136,20 @@ There are things you need to use the software and how to install them for Linux 
 
 * Web Server for Mac: valet
 ```
-composer global require laravel/valet
+  composer global require laravel/valet
 ``` 
 
 ### Create Project
 
 1. install laravel via composer:
+<<<<<<< HEAD
  ```
  composer global require laravel/installer 
+=======
+>>>>>>> cb977c2864efffff806bc8606219fdbe10b2b796
 ```
+   composer global require laravel/installer 
+   ```
 
 2. create new project
 ```
